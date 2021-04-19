@@ -59,20 +59,6 @@ class FilmAdapter(val context: Context) : RecyclerView.Adapter<FilmAdapter.ViewH
         }
 
         override fun onTimeSet(view: TimePicker?, hourOfDay: Int, minute: Int) {
-
         }
-
-//        private fun createNotificationChannel() {
-//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-//                val name: CharSequence = "Best film of 2019"
-//                val description = "List of best films of 2019"
-//                val importance = NotificationManager.IMPORTANCE_DEFAULT
-//                val channel = NotificationChannel("notify", name, importance)
-//                channel.description = description
-//
-//                val manager = getSystemService(NotificationManager::class.java)
-//
-//            }
-//        }
     }
 }

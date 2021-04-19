@@ -16,5 +16,4 @@ import kotlinx.coroutines.launch
 import org.json.JSONObject
 
 class MainActivityViewModel(application: Application) : AndroidViewModel(application) {
-   // fun getFilm(context: Context, url: String): List<DataFilm> = MovieDbApi().getListOfFilms(context, url)
 }
